@@ -1,44 +1,37 @@
+/* style.css */
 
-
-.movie-item img {
-    width:300px; 
-    height:200px;
-    transition: transform 0.3s;
-  }
-  
+/* Style the <body> element */
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:darksalmon;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  h1 {
-    text-align:center;
-    color:aqua;
-  }
-  
-  .movie-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  .movie-title:hover {
-    text-decoration: underline;
-    color: #ff4500; 
-  }
-  #movieList {
-    padding: 20px;
-  }
-  
-  .movie-item {
-    margin-bottom: 20px;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color:pink; margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
-    
-  
-  
-  
+/* Style the <h1> element */
+h1 {
+  text-align: center;
+  color:aqua;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the #movie-place element */
+#movie-place {
+  background-color:coral;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style the #yellow element */
+#yellow {
+  background-color: yellow;
+  padding: 10px;
+  margin: 20px;
+}
+
   
